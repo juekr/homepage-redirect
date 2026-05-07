@@ -1,0 +1,24 @@
+{
+    "name": "juekr/homepage-redirect",
+    "description": "Redirect guests to a landing page while logged-in users access the forum normally.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "Juekr"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juekr\\HomepageRedirect\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Homepage Redirect"
+        }
+    }
+}
